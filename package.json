@@ -4,6 +4,7 @@
   "description": "rollup configuration",
   "main": "index.js",
   "scripts": {
+    "start": "rollup -c -w",
     "build": "rollup -c"
   },
   "repository": {
@@ -16,5 +17,13 @@
   "bugs": {
     "url": "https://github.com/climbingirl/rollup/issues"
   },
-  "homepage": "https://github.com/climbingirl/rollup#readme"
+  "homepage": "https://github.com/climbingirl/rollup#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.26.9",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-image": "^3.0.3",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-serve": "^3.0.0",
+    "rollup-plugin-styles": "^4.0.0"
+  }
 }
