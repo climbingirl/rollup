@@ -1,0 +1,20 @@
+{
+  "name": "rollup",
+  "version": "1.0.0",
+  "description": "rollup configuration",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/climbingirl/rollup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/climbingirl/rollup/issues"
+  },
+  "homepage": "https://github.com/climbingirl/rollup#readme"
+}
